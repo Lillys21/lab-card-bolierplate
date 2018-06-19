@@ -1,0 +1,48 @@
+/* Los estilos de tu proyecto */
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+/*  border-bottom: #c0392b 3px solid;*/
+  /*opacity: .7;*/
+}
+
+#home-section {
+  background: url('../assets/images/taxi.jpg') no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+dark-overlay {
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.home-inner {
+  padding-top: 200px;
+}
+
+#back-section {
+  background: url('../assets/images/conduce.jpg') no-repeat;
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.map img{
+  height:250px;
+  float: left;
+}
+
+@media (max-width: 992px) {
+  .home-inner {
+    padding-top: 150px;
+  }
+}
